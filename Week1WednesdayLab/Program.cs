@@ -101,8 +101,7 @@ namespace Week1WednesdayLab
         {
             foreach(string page in book.Reverse())
             {
-                for (int i = page.Length - 1; i > -1; i--)
-                    Console.Write(page[i]);
+                reverse(page);
                 Console.WriteLine();
             }
         }
